@@ -133,6 +133,7 @@ p {
     fill: var(--social-icons-grey);
     align-items: center;
     justify-content: center;
+    transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-nav .link {
@@ -174,7 +175,6 @@ p {
     position: absolute;
     left: 0;
     bottom: -1px;
-
     display: block;
     width: 100%;
     height: 4px;
@@ -189,9 +189,7 @@ p {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
-
     opacity: 1;
-
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
                 visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
@@ -377,6 +375,7 @@ p {
     color: var(--primary-white-color);
     padding-top: 27px;
     padding-bottom: 27px;
+    text-transform: uppercase;
 }
 
 .team {
@@ -404,7 +403,6 @@ p {
 .member-card {
     display: flex;
     justify-content: center;
-
 }
 
 .member-card .item {
@@ -594,6 +592,7 @@ p {
 .flex-link {
     display: block;
     text-decoration: none;
+    transition: 250ms box-shadow cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-names {
     padding-top: 20px;
@@ -609,7 +608,6 @@ p {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
-    transition: 250ms box-shadow cubic-bezier(0.4, 0, 0.2, 1);
 }
 
  
@@ -621,8 +619,8 @@ p {
     margin-bottom: 0;
 }
 
-.flex-item:hover,
-.flex-item:focus {
+.flex-link:hover,
+.flex-itek:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
                 0px 4px 4px rgba(0, 0, 0, 0.06),
                 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -652,7 +650,7 @@ p {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.flex-item:hover .text-overlay {
+.flex-link:hover .text-overlay {
     transform: translateY(0);
     opacity: 1;
 }
