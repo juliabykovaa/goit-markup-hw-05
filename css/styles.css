@@ -109,7 +109,7 @@ p {
     letter-spacing: 0.02em;
     text-decoration: none; 
     position: relative;
-    transition: 250ms color cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -133,7 +133,7 @@ p {
     fill: var(--social-icons-grey);
     align-items: center;
     justify-content: center;
-    transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-nav .link {
@@ -155,7 +155,7 @@ p {
     letter-spacing: 0.02em;
     align-items: center;
     gap: 10px;
-    transition: 250ms color cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -274,7 +274,7 @@ p {
     border-radius: 4px;
     cursor: pointer;
     border: 0;
-    transition: 250ms background-color cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }   
 
 
@@ -442,12 +442,12 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 250ms background-color cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon {
     fill: var(--social-icons-grey);
-    transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
@@ -486,7 +486,7 @@ p {
     justify-content: center;
     border: 1px solid var(--social-icons-grey);
     border-radius: 4px;
-    transition: 250ms border-color cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-icon {
@@ -494,7 +494,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -523,9 +523,9 @@ p {
     padding: 6px 22px;
     border-radius: 4px;
     border: 0;
-    transition: 250ms color cubic-bezier(0.4, 0, 0.2, 1),
-                250ms background-color cubic-bezier(0.4, 0, 0.2, 1),
-                250ms box-shadow cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                background-color 250ms  cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover,
@@ -572,7 +572,7 @@ p {
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
-    transition: 250ms color cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -592,7 +592,7 @@ p {
 .flex-link {
     display: block;
     text-decoration: none;
-    transition: 250ms box-shadow cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-names {
     padding-top: 20px;
